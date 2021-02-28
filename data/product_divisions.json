@@ -1,0 +1,311 @@
+{
+  "divisions": [
+    {
+      "product_type": "Golosinas",
+      "tile_color": "0xff59ABE5",
+      "description": "Ten cerca este listado, la mayoría de las golosinas AptoVegan se encuentran en cualquier negocio!",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Chocolates",
+      "tile_color": "0xff9A59B5",
+      "description": "Los chocolates amargos tienden a ser AptoVegan, recuerda agregarlos al listado si encuentras uno nuevo!",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Barras de cereal",
+      "tile_color": "0xff69C2A2",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Alfajores",
+      "tile_color": "0xff446CB4",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Snacks",
+      "tile_color": "0xffFA9308",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Gaseosas",
+      "tile_color": "0xffD64542",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Bebidas energizantes",
+      "tile_color": "0xff27A55B",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Galletitas",
+      "tile_color": "0xffD1527F",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Tostadas",
+      "tile_color": "0xff810E0B",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Fideos",
+      "tile_color": "0xff1E824C",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Pastas",
+      "tile_color": "0xff59ABE5",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Milanesas",
+      "tile_color": "0xff9A59B5",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Sopas",
+      "tile_color": "0xff9A59B5",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Purés",
+      "tile_color": "0xff446CB4",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Margarinas",
+      "tile_color": "0xffFA9308",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Productos congelados",
+      "tile_color": "0xffD64542",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Hamburguesas",
+      "tile_color": "0xff27A55B",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Aderezos",
+      "tile_color": "0xffD1527F",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Mermeladas",
+      "tile_color": "0xff810E0B",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Medialunas",
+      "tile_color": "0xff1E824C",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Panes",
+      "tile_color": "0xff59ABE5",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Levadura de cerveza nutricional",
+      "tile_color": "0xff9A59B5",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Cereales",
+      "tile_color": "0xff69C2A2",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Helados",
+      "tile_color": "0xff446CB4",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Tofu",
+      "tile_color": "0xffFA9308",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Yogurt",
+      "tile_color": "0xffD64542",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Cacao en polvo",
+      "tile_color": "0xff27A55B",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Leches vegetales",
+      "tile_color": "0xffD1527F",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Jugos en polvo",
+      "tile_color": "0xff810E0B",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Jugos",
+      "tile_color": "0xff1E824C",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Caldos",
+      "tile_color": "0xff59ABE3",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Tapas para tartas y empanadas",
+      "tile_color": "0xff9A57B4",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Soja texturizada",
+      "tile_color": "0xff68C3A2",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Premezclas",
+      "tile_color": "0xff466CB3",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Quesos",
+      "tile_color": "0xffF99406",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Saborizantes",
+      "tile_color": "0xffD84444",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Salsa deshidratada",
+      "tile_color": "0xff25A55A",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Salsas dulces",
+      "tile_color": "0xffD15181",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Postre",
+      "tile_color": "0xff810E0B",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Flanes",
+      "tile_color": "0xff1E824C",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Colorantes",
+      "tile_color": "0xff59ABE5",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Cremas",
+      "tile_color": "0xff9A59B5",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Untables dulces",
+      "tile_color": "0xff69C2A2",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Starbucks",
+      "tile_color": "0xff446CB4",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Shampoo y acondicionador",
+      "tile_color": "0xffFA9308",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Pasta dental",
+      "tile_color": "0xffD64542",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Cosmeticos y cuidado personal",
+      "tile_color": "0xff27A55B",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Jabones",
+      "tile_color": "0xffD1527F",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Desodorantes",
+      "tile_color": "0xff830D0B",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Protector solar",
+      "tile_color": "0xff1E824C",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Perfumería",
+      "tile_color": "0xff59ABE3",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Suplementos",
+      "tile_color": "0xff9A57B4",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Artículos de limpieza",
+      "tile_color": "0xff68C3A2",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Alimentos para mascotas",
+      "tile_color": "0xff446CB4",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Cervezas",
+      "tile_color": "0xffF99406",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Espumantes",
+      "tile_color": "0xffD84444",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Vinos",
+      "tile_color": "0xff25A55A",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Aperitivos",
+      "tile_color": "0xffD1527F",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Bebidas blancas",
+      "tile_color": "0xff810E0B",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Whisky",
+      "tile_color": "0xff1E824C",
+      "img": "golosinas.png"
+    },
+    {
+      "product_type": "Cigarrillos",
+      "tile_color": "0xff59ABE5",
+      "img": "golosinas.png"
+    }
+  ]
+}
