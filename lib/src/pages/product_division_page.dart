@@ -1,3 +1,4 @@
+import 'package:aptovegan/src/widgets/product_tile.dart';
 import 'package:flutter/material.dart';
 
 class ProductDivisionPage extends StatelessWidget {
@@ -16,7 +17,7 @@ class ProductDivisionPage extends StatelessWidget {
           IconButton(icon: Icon(Icons.more_vert), onPressed: () {}),
         ],
       ),
-      body: Column(
+      body: ListView(
         children: [
           Container(
             width: MediaQuery.of(context).size.width,
@@ -25,10 +26,9 @@ class ProductDivisionPage extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                FadeInImage(
+                Image(
                   height: 100,
                   width: 100,
-                  placeholder: AssetImage('assets/app_icon.png'),
                   image: AssetImage('assets/app_icon.png'),
                 ),
                 Text(
@@ -37,13 +37,19 @@ class ProductDivisionPage extends StatelessWidget {
                 ),
                 if (element['description'] != null)
                   Container(
-                    padding: EdgeInsets.symmetric(horizontal: 80, vertical: 10),
+                    width: MediaQuery.of(context).size.width * 0.75,
                     child: Text(
                       element['description'],
                       textAlign: TextAlign.start,
                     ),
                   ),
               ],
+            ),
+          ),
+          Column(
+            children: List.generate(
+              20,
+              (index) => ProductTile(),
             ),
           ),
         ],

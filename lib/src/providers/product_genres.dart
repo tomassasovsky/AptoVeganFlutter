@@ -24,7 +24,6 @@ final productsProvider = _ProductsProvider();
 list() {
   return FutureBuilder(
     future: productsProvider.loadData(),
-    initialData: [],
     builder: (BuildContext context, AsyncSnapshot<List<dynamic>> snapshot) {
       if (snapshot.connectionState == ConnectionState.done) {
         return ListView(
@@ -33,7 +32,7 @@ list() {
           children: _listItems(snapshot.data, context),
         );
       }
-      return CircularProgressIndicator();
+      return Center(child: CircularProgressIndicator());
     },
   );
 }

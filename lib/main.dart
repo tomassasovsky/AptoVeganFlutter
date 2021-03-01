@@ -1,7 +1,7 @@
+import 'package:aptovegan/src/pages/page_selection.dart';
 import 'package:flutter/material.dart';
-
-import '/src/pages/home_page.dart';
 import '/src/routes/routes.dart' as routes;
+import '/src/themes/themes.dart';
 
 void main() {
   runApp(MyApp());
@@ -12,9 +12,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData.light().copyWith(appBarTheme: AppBarTheme(backgroundColor: Color(0xff222222))),
-      darkTheme: ThemeData.dark().copyWith(appBarTheme: AppBarTheme(backgroundColor: Color(0xff222222))),
-      home: HomePage(),
+      theme: lightTheme,
+      darkTheme: darkTheme,
+      home: PageSelection(),
       onGenerateRoute: routes.routeSettings,
     );
   }
