@@ -18,7 +18,7 @@ class FavoritesPage extends StatelessWidget {
               onPressed: addFavorites,
             ),
             Text(
-              'You have no favourites yet! Add a product to \'favourites\' to see it here!',
+              'Todavía no tienes ningún favorito! Agrega un producto a \'favoritos\' para verlo aquí!',
               textAlign: TextAlign.center,
             ),
           ],

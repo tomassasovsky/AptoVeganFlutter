@@ -48,14 +48,14 @@ class _AddPageState extends State<AddPage> with TickerProviderStateMixin {
           onPressed: () {
             takePhoto(ImageSource.camera).then((value) => Navigator.pop(context));
           },
-          label: Text('Camera', style: TextStyle(color: Colors.black)),
+          label: Text('Cámara', style: TextStyle(color: Colors.black)),
         ),
         TextButton.icon(
           icon: Icon(Icons.image, color: Colors.black),
           onPressed: () {
             takePhoto(ImageSource.gallery).then((value) => Navigator.pop(context));
           },
-          label: Text('Gallery', style: TextStyle(color: Colors.black)),
+          label: Text('Galería', style: TextStyle(color: Colors.black)),
         ),
       ],
     );
@@ -78,7 +78,7 @@ class _AddPageState extends State<AddPage> with TickerProviderStateMixin {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Text(
-              'Choose a Photo',
+              'Elegir foto',
               style: TextStyle(fontSize: 20.0, color: Colors.black),
             ),
             SizedBox(height: MediaQuery.of(context).size.height * 0.03),
@@ -189,7 +189,7 @@ class _AddPageState extends State<AddPage> with TickerProviderStateMixin {
                     );
                   },
                   icon: Icon(Icons.add_a_photo),
-                  label: Text('Add Photo'),
+                  label: Text('Agregar una foto'),
                 ),
                 TextButton.icon(
                   onPressed: () {
@@ -199,7 +199,7 @@ class _AddPageState extends State<AddPage> with TickerProviderStateMixin {
                     );
                   },
                   icon: Icon(Icons.done),
-                  label: Text('Done'),
+                  label: Text('Listo!'),
                 ),
               ],
             ),
@@ -268,7 +268,7 @@ class _AddPageState extends State<AddPage> with TickerProviderStateMixin {
                     );
                   },
                   icon: Icon(Icons.add_a_photo),
-                  label: Text('Add Photo'),
+                  label: Text('Agregar una foto'),
                 ),
                 TextButton.icon(
                   onPressed: () {
@@ -278,7 +278,7 @@ class _AddPageState extends State<AddPage> with TickerProviderStateMixin {
                     );
                   },
                   icon: Icon(Icons.done),
-                  label: Text('Done'),
+                  label: Text('Listo!'),
                 ),
               ],
             ),

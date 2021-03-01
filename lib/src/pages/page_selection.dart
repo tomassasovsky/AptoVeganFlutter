@@ -18,39 +18,52 @@ class _PageSelectionState extends State<PageSelection> {
   Widget build(BuildContext context) {
     return Scaffold(
       drawer: Drawer(
-        child: ListView(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            Stack(
+            Column(
               children: [
-                Image(
-                  image: AssetImage('assets/drawer_image.jpg'),
+                Stack(
+                  children: [
+                    Image(
+                      image: AssetImage('assets/drawer_image.jpg'),
+                    ),
+                    Positioned(
+                      left: 20,
+                      top: 20,
+                      child: CircleAvatar(
+                        radius: 50,
+                        backgroundImage: AssetImage('assets/profile_picture.jpg'),
+                      ),
+                    ),
+                  ],
                 ),
-                Positioned(
-                  left: 20,
-                  top: 20,
-                  child: CircleAvatar(
-                    radius: 50,
-                    backgroundImage: AssetImage('assets/profile_picture.jpg'),
-                  ),
+                ListTile(
+                  leading: Icon(Icons.favorite),
+                  title: Text('Favoritos'),
+                  onTap: () {
+                    Navigator.of(context).pop();
+                    Future.delayed(Duration(milliseconds: 200)).then((_) {
+                      if (_index != 1) setState(() => _index = 1);
+                    });
+                  },
+                ),
+                ListTile(
+                  leading: Icon(Icons.settings),
+                  title: Text('Configuración'),
                 ),
               ],
             ),
             ListTile(
-              leading: Icon(Icons.favorite),
-              title: Text('Favorites'),
-              onTap: () {
-                Navigator.of(context).pop();
-                if (_index != 1) setState(() => _index = 1);
-              },
-            ),
-            ListTile(
-              leading: Icon(Icons.settings),
-              title: Text('Settings'),
-            ),
-            ListTile(
-              leading: Icon(Icons.logout),
-              title: Text('Logout'),
-            ),
+              leading: IconButton(
+                icon: Icon(Icons.nights_stay),
+                onPressed: () {},
+              ),
+              trailing: IconButton(
+                icon: Icon(Icons.logout),
+                onPressed: () {},
+              ),
+            )
           ],
         ),
       ),
@@ -85,23 +98,23 @@ class _PageSelectionState extends State<PageSelection> {
         items: [
           SalomonBottomBarItem(
             icon: Icon(Icons.home),
-            title: Text('Products'),
+            title: Text('Productos'),
           ),
           SalomonBottomBarItem(
             icon: Icon(Icons.favorite),
-            title: Text('Favorites'),
+            title: Text('Favoritos'),
           ),
           SalomonBottomBarItem(
             icon: Icon(Icons.place),
-            title: Text('Places'),
+            title: Text('Lugares'),
           ),
           SalomonBottomBarItem(
             icon: Icon(Icons.list),
-            title: Text('Additives'),
+            title: Text('Aditivos'),
           ),
           SalomonBottomBarItem(
             icon: Icon(Icons.add),
-            title: Text('Add'),
+            title: Text('Agregar'),
           ),
         ],
       ),

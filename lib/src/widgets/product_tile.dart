@@ -1,3 +1,4 @@
+import 'package:aptovegan/src/widgets/report_product.dart';
 import 'package:flutter/material.dart';
 
 class ProductTile extends StatefulWidget {
@@ -39,7 +40,7 @@ class _ProductTileState extends State<ProductTile> {
                       Text('Bariloche', style: TextStyle(fontWeight: FontWeight.w300)),
                     ],
                   ),
-                )
+                ),
               ],
             ),
             SizedBox(height: 16),
@@ -55,14 +56,17 @@ class _ProductTileState extends State<ProductTile> {
                 TextButton.icon(
                   onPressed: () => setState(() => _liked = !_liked),
                   icon: Icon(_liked ? Icons.favorite : Icons.favorite_border, color: Colors.red),
-                  label: Text('Add to favorites', style: _buttonTextStyle),
+                  label: Text(_liked ? 'Quitar de favoritos' : 'Agregar a favoritos', style: _buttonTextStyle),
                 ),
                 TextButton(
-                  onPressed: () {},
-                  child: Text('Report this product', style: _buttonTextStyle),
+                  onPressed: () => showDialog(
+                    context: context,
+                    builder: (_) => ReportProduct(),
+                  ),
+                  child: Text('Reportar', style: _buttonTextStyle),
                 ),
               ],
-            )
+            ),
           ],
         ),
       ),

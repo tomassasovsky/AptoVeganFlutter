@@ -1,0 +1,30 @@
+[33mcommit 6322a74b4e8d08bd18e6155e9589b1359697359c[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: tomassasovsky <tomassasovskylinari@gmail.com>
+Date:   Mon Mar 1 19:41:35 2021 -0300
+
+    Changed spaces to tabs indentation (had it that way by mistake)
+
+[33mcommit 4bd4aa3548a6741845ab5df7385f54a920f3be31[m
+Author: tomassasovsky <tomassasovskylinari@gmail.com>
+Date:   Mon Mar 1 16:42:17 2021 -0300
+
+    UI en español
+
+[33mcommit fa28425b24e3311d853866e431755f3be0fdc55c[m
+Author: tomassasovsky <tomassasovskylinari@gmail.com>
+Date:   Mon Mar 1 16:22:19 2021 -0300
+
+    Added all the pages, made the product tile widget.
+    Maps function has been added.
+
+[33mcommit f83689871bcd1b898a878a8dcb3c1cdfa3c57022[m
+Author: tomassasovsky <tomassasovskylinari@gmail.com>
+Date:   Sun Feb 28 13:40:27 2021 -0300
+
+    Added the product divisions (its provider and a file that contains all this data). Also a very basic mockup of the page you get when you tap on one of the divisions. The custom bottom navigation bar has been added too.
+
+[33mcommit a794c4f2fb1f21206ae58a7891b2bd6f37cf043d[m
+Author: tomassasovsky <tomassasovskylinari@gmail.com>
+Date:   Sun Feb 28 10:01:37 2021 -0300
+
+    Initial Commit - Default Flutter App

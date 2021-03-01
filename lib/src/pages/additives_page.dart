@@ -20,10 +20,10 @@ class _AdditivesPageState extends State<AdditivesPage> with TickerProviderStateM
       appBar: TabBar(
         controller: _tabController,
         tabs: [
-          Tab(child: Text('Apto')),
-          Tab(child: Text('No apto')),
-          Tab(child: Text('Dudoso')),
-          Tab(child: Text('Todos')),
+          Tab(child: Text('APTO')),
+          Tab(child: Text('NO APTO')),
+          Tab(child: Text('DUDOSO')),
+          Tab(child: Text('TODOS')),
         ],
       ),
       body: TabBarView(
