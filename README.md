@@ -1,4 +1,4 @@
-# aptovegan
+# VeganAptFlutter
 
 A new Flutter project.
 
